@@ -1,0 +1,73 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("https://source.unsplash.com/q4TfWtnz_xw/landscape");
+    background-size: cover;
+    background-position: center;
+}
+
+#formDiv{
+    background-color: rgba(10, 4,8,0.5);
+    margin:auto;
+    margin-top: 15%;
+    width: 35%;
+    max-width: 450px;
+    height: 46%;
+    display: block;
+    text-align: left;
+    border: 2px solid rgb(10,4,8);
+    border-radius: 25px;
+}
+
+input{
+    padding:0.5em;
+    border: 2px solid rgb(10,4,8);
+    border-radius: 10px;
+
+}
+.form{
+    display:flex;
+    justify-content: center;
+
+}
+.button{
+    background-color: rgb(10,4,8);
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.description{
+    text-transform: capitalize;
+    color:whitesmoke;
+    font-weight: 700;
+}
+
+h1.temp{
+    margin:0;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    color:whitesmoke;
+    font-weight: 700;
+}
+h2.city{
+    margin-left: 15px;
+    font-family: 'Open Sans', sans-serif;
+    color:whitesmoke;
+    font-weight: 700;
+}
+.iconDiv{
+    display: flex;
+    align-items: center;
+}
+
+.humidity{
+    margin-left: 15px;
+    color:whitesmoke;
+    font-weight: 700;
+}
+.windSpeed{
+    margin-left: 15px;
+    color:whitesmoke;
+    font-weight: 700;
+}
