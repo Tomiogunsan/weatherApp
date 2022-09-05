@@ -75,13 +75,7 @@ h2.city{
 }
 
 @media screen and (max-width: 940px ){
-    input{
-        width: 5rem;
-    }
-
-    button{
-        width: 2rem;
-    }
+   
     #formDiv{
         width: 100%;
 }
